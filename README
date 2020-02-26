@@ -6,3 +6,6 @@ Create symlinks
 
 	ln -s ~/dotvim/vimrc ~/.vimrc
 
+Install Plugins:
+	start vim and enter :PluginInstall
+
