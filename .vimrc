@@ -25,7 +25,7 @@ Bundle 'klen/python-mode'
 Bundle 'ivanov/vim-ipython'
 Bundle 'Rykka/riv.vim'
 Bundle 'vim-latex/vim-latex'
-
+Plugin 'xuhdev/vim-latex-live-preview'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 " Map Nerdtree
