@@ -38,3 +38,12 @@ set foldlevel=99
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
 set laststatus=2
 
+" Setup for vim-latex
+filetype plugin on
+set grepprg=grep\ -nH\ $*
+filetype indent on
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat='pdf'
+let g:Tex_MultipleCompileFormats='pdf,bib,pdf'
+let g:livepreview_previewer = 'evince'
+
