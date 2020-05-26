@@ -30,6 +30,10 @@ Bundle 'vim-latex/vim-latex'
 Plugin 'xuhdev/vim-latex-live-preview'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+
+let mapleader=','
+set encoding=utf-8
 " Map Nerdtree
 map <F2> :NERDTreeToggle<CR>
 " Enable folding
